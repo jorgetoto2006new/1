@@ -1,0 +1,9 @@
+# Inventario inicial
+inventario = ["manzanas", "bananas", "zanahorias", "espinacas", "brocoli", "cebolla", "kiwis"]
+# Pregunta 1: ¿Cuántos tipos de productos hay en el inventario inicial?
+num_productos = len(inventario)
+print(f"Pregunta 1: Hay {num_productos} tipos de productos en el inventario inicial.")
+print ("-----------------------------------------------------------------")
+# Pregunta 2: ¿Qué producto está en la tercera posición del inventario?
+producto_tercera_posicion = inventario[2]
+print(f"Pregunta 2: El producto en la tercera posición del inventario es: {producto_tercera_posicion}.")
